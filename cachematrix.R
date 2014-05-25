@@ -1,16 +1,10 @@
-<<<<<<< HEAD
+
 ## These two functions can be used to calculate and store in cache
 ## an inverse to a matrix.  The first function, makeCacheMatrix, will
 ## store a new matrix in an internal variable x and will set the inverse matrix m
 ## to NULL.  The second function, cacheSolve, will then return the cached 
 ## inverse matrix if it exists, but otherwise calculate and store a new
 ## one if the inverse matrix is NULL.
-=======
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
->>>>>>> 7f657dd22ac20d22698c53b23f0057e1a12c09b7
 
 ## makeCacheMatrix will store a list of four functions that will
 ## set and return the value of a matrix and its cached inverse.
@@ -33,13 +27,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-<<<<<<< HEAD
 ## cacheSolve will check if there is a cached inverse matrix
 ## and will return that matrix, or it will calculate a new inverse
 ## matrix, store it in cache, and return it.
-=======
-## Write a short comment describing this function
->>>>>>> 7f657dd22ac20d22698c53b23f0057e1a12c09b7
 
 cacheSolve <- function(x, ...) {
   m <- x$getinverse()
